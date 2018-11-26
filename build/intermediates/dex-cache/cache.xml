@@ -2,85 +2,112 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\46123\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\disklrucache\4.0.0-RC0\46d23cdc19155c5f0d47ece99ca1c421346c1509\disklrucache-4.0.0-RC0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\ienin\.android\build-cache\892018667779f865fb68e5614e01465da7398152\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="46d23cdc19155c5f0d47ece99ca1c421346c1509">
-        <dex dex="C:\Users\46123\Desktop\RecyclerViewSelectedDemo\app\build\intermediates\pre-dexed\debug\disklrucache-4.0.0-RC0_ea7a4fda00f9859e06dc71526a27e9da37aa0588.jar" />
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="F:\workspace\RecyclerViewSelectedDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3ad22b03a8d8d6941492084cfb15e1d7390e2d6d\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\46123\.android\build-cache\abbf1d2fc9c5fafc95afc762a312a0806e28e41b\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="F:\workspace\RecyclerViewSelectedDemo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="C:\Users\46123\Desktop\RecyclerViewSelectedDemo\app\build\intermediates\pre-dexed\debug\classes_9cd7df18d417d5f13f2ed740e393adcedf1a7f8d.jar" />
+        sha1="ef1488fab5256d6acbae913f889a6bd3dd0b10a8">
+        <dex dex="F:\workspace\RecyclerViewSelectedDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5329bbe8ae7f21493c7a7fea3ccefdb2064f4906\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\46123\.android\build-cache\377c179aa5ef70d77855f6303ca393ffc7c22adb\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
-        <dex dex="C:\Users\46123\Desktop\RecyclerViewSelectedDemo\app\build\intermediates\pre-dexed\debug\classes_993ee29ae2262a585ae57fd5283a6e14072d3b14.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\46123\.android\build-cache\e0f97e7cc675b10a3d375195d1d0820cc4d8201c\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="fa61569ed84bc6979e529ec7d92bb4756b1c3572">
-        <dex dex="C:\Users\46123\Desktop\RecyclerViewSelectedDemo\app\build\intermediates\pre-dexed\debug\classes_f3af8bbb2cb42e24f8c3541b1c8c89e5aa75bd76.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\46123\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\4.0.0-RC0\eb86cd1d96acc30dcebf338abaf2c62ca28bf355\glide-4.0.0-RC0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="eb86cd1d96acc30dcebf338abaf2c62ca28bf355">
-        <dex dex="C:\Users\46123\Desktop\RecyclerViewSelectedDemo\app\build\intermediates\pre-dexed\debug\glide-4.0.0-RC0_874b80e186268369184616d96b8ecd0c365aa978.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\46123\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\gifdecoder\4.0.0-RC0\c64f5d4805b528de434a5a8bb9a8091b6f9cd1a7\gifdecoder-4.0.0-RC0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="c64f5d4805b528de434a5a8bb9a8091b6f9cd1a7">
-        <dex dex="C:\Users\46123\Desktop\RecyclerViewSelectedDemo\app\build\intermediates\pre-dexed\debug\gifdecoder-4.0.0-RC0_a7157d59e5c76f74b5eaecf5753c1219f41b1de0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\46123\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.0.14\898f9ab61e2a23afd615f0b0389478bec86f49f9\rxjava-1.0.14.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\ienin\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.0.14\898f9ab61e2a23afd615f0b0389478bec86f49f9\rxjava-1.0.14.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="898f9ab61e2a23afd615f0b0389478bec86f49f9">
-        <dex dex="C:\Users\46123\Desktop\RecyclerViewSelectedDemo\app\build\intermediates\pre-dexed\debug\rxjava-1.0.14_5da3769f6009267680b8fc3002fc612acb893bc7.jar" />
+        <dex dex="F:\workspace\RecyclerViewSelectedDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.0.14_49b824e28b459cbd84cc10270499c2c16624eaa7\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\46123\.android\build-cache\c89b0efa8fd955770349d4ddf2c83e8230458ed0\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\ienin\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\4.0.0-RC0\eb86cd1d96acc30dcebf338abaf2c62ca28bf355\glide-4.0.0-RC0.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="C:\Users\46123\Desktop\RecyclerViewSelectedDemo\app\build\intermediates\pre-dexed\debug\classes_0649653d283f1caa68ad38b5d043d88f4fb52b91.jar" />
+        sha1="eb86cd1d96acc30dcebf338abaf2c62ca28bf355">
+        <dex dex="F:\workspace\RecyclerViewSelectedDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-4.0.0-RC0_90767c995dafef5b7210972399d888cd73dea452\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\46123\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\annotations\4.0.0-RC0\d5dd0afc50069b7fa0fc12ac85f91efa8df4db67\annotations-4.0.0-RC0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="F:\l\Android\sdk2\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="F:\workspace\RecyclerViewSelectedDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_113efb4b496fd38e90489a3e7a043bc702b9285c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ienin\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\disklrucache\4.0.0-RC0\46d23cdc19155c5f0d47ece99ca1c421346c1509\disklrucache-4.0.0-RC0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="46d23cdc19155c5f0d47ece99ca1c421346c1509">
+        <dex dex="F:\workspace\RecyclerViewSelectedDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\disklrucache-4.0.0-RC0_0c6845f172df4834963be14a707c57c628d11684\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ienin\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\annotations\4.0.0-RC0\d5dd0afc50069b7fa0fc12ac85f91efa8df4db67\annotations-4.0.0-RC0.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="d5dd0afc50069b7fa0fc12ac85f91efa8df4db67">
-        <dex dex="C:\Users\46123\Desktop\RecyclerViewSelectedDemo\app\build\intermediates\pre-dexed\debug\annotations-4.0.0-RC0_f22d9a017c7a985d3977e268d004a71feec9e1c0.jar" />
+        <dex dex="F:\workspace\RecyclerViewSelectedDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\annotations-4.0.0-RC0_10cd10e3036eceef25e80306e51cbc487e22b564\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ienin\.android\build-cache\ffd3d53688a4048de5545d59101537bb510966c6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
+        <dex dex="F:\workspace\RecyclerViewSelectedDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4d99afccfb7076da87cfdc20a12409593e16b81f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ienin\.android\build-cache\5282aa2d7ef7a45f77a76a85eb52aba3e147fae8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fa61569ed84bc6979e529ec7d92bb4756b1c3572">
+        <dex dex="F:\workspace\RecyclerViewSelectedDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f6a4642bcd78e72c3c7ab2faf6db05a368ed265d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\workspace\RecyclerViewSelectedDemo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="F:\workspace\RecyclerViewSelectedDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_4b45d67769c58c10bcafd1b3fcc807e9e7771a2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ienin\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\gifdecoder\4.0.0-RC0\c64f5d4805b528de434a5a8bb9a8091b6f9cd1a7\gifdecoder-4.0.0-RC0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c64f5d4805b528de434a5a8bb9a8091b6f9cd1a7">
+        <dex dex="F:\workspace\RecyclerViewSelectedDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\gifdecoder-4.0.0-RC0_5380f63ecc59265633477ee4f7963f6e4f5e323c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ienin\.android\build-cache\826d39c7e9646783397152323e53a3dadbc608e0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="F:\workspace\RecyclerViewSelectedDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4d77b21dd553ad0ac079aa0157c0bfe859e57774\classes.dex" />
     </item>
 
 </items>

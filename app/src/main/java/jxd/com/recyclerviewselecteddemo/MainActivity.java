@@ -6,6 +6,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
     ImageView imageView;
+    private TextView mTvNum;
 
     private List<RecyclerViewMode> recyclerViewModeList = new ArrayList<>();
     private RecyclerViewAdapter recyclerViewAdapter;
@@ -35,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         imageView = (ImageView) findViewById(R.id.imageView_selected);
+        mTvNum = (TextView) findViewById(R.id.tv_num);
         initData();
         initRecyclerView();
         initRecyclerViewAdapter();
@@ -60,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                         recyclerViewMap.put(recyclerViewAdapter.getData().get(i).No, recyclerViewAdapter.getData().get(i));
                     }
+                    mTvNum.setText("全选" + recyclerViewAdapter.getData().size());
                 }
                 recyclerViewAdapter.notifyDataSetChanged();
             }
@@ -92,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
                     isSelected = false;
                     imageView.setImageResource(R.mipmap.icon_circle_gray);
                 }
+                mTvNum.setText("全选" + recyclerViewMap.size());
             }
         };
     }

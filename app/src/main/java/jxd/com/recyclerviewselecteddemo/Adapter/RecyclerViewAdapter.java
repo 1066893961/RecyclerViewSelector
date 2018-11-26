@@ -13,8 +13,6 @@ import java.util.List;
 import jxd.com.recyclerviewselecteddemo.MainActivity;
 import jxd.com.recyclerviewselecteddemo.Mode.RecyclerViewMode;
 import jxd.com.recyclerviewselecteddemo.R;
-import rx.Observable;
-import rx.Subscriber;
 
 /**
  * Created by 46123 on 2018/2/1.
@@ -44,14 +42,15 @@ public class RecyclerViewAdapter extends BaseQuickAdapter<RecyclerViewMode, Base
                     item.isCheck = true;
                     helper.setImageResource(R.id.imageView_selected, R.mipmap.icon_circle_yellow);
                 }
-                Observable<RecyclerViewMode> observable = Observable.create(new Observable.OnSubscribe<RecyclerViewMode>() {
-                    @Override
-                    public void call(Subscriber<? super RecyclerViewMode> subscriber) {
-                        subscriber.onNext(item);
-                        subscriber.onCompleted();
-                    }
-                });
-                observable.subscribe(mainActivity.observer);
+//                Observable<RecyclerViewMode> observable = Observable.create(new Observable.OnSubscribe<RecyclerViewMode>() {
+//                    @Override
+//                    public void call(Subscriber<? super RecyclerViewMode> subscriber) {
+//                        subscriber.onNext(item);
+//                        subscriber.onCompleted();
+//                    }
+//                });
+//                observable.subscribe(mainActivity.observer);
+                mListener.onSelectorLister(item);
             }
         });
         if (item.isCheck) {
@@ -59,5 +58,12 @@ public class RecyclerViewAdapter extends BaseQuickAdapter<RecyclerViewMode, Base
         } else {
             helper.setImageResource(R.id.imageView_selected, R.mipmap.icon_circle_gray);
         }
+    }
+    private SelectedListener mListener;
+    public void setSelectedListener(SelectedListener mListener){
+        this.mListener = mListener;
+    }
+    public interface SelectedListener{
+        void onSelectorLister(RecyclerViewMode mode);
     }
 }

@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                         recyclerViewMap.remove(recyclerViewAdapter.getData().get(i).No);
                     }
+                    mTvNum.setText("全选");
                 } else {
                     isSelected = true;
                     imageView.setImageResource(R.mipmap.icon_circle_yellow);
@@ -69,19 +70,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        observer = new Observer<RecyclerViewMode>() {
+        recyclerViewAdapter.setSelectedListener(new RecyclerViewAdapter.SelectedListener() {
             @Override
-            public void onCompleted() {
-
-            }
-
-            @Override
-            public void onError(Throwable e) {
-
-            }
-
-            @Override
-            public void onNext(RecyclerViewMode recyclerViewMode) {
+            public void onSelectorLister(RecyclerViewMode mode) {
                 for (int i = 0; i < recyclerViewAdapter.getData().size(); i++) {
                     if (recyclerViewAdapter.getData().get(i).isCheck) {
                         recyclerViewMap.put(recyclerViewAdapter.getData().get(i).No, recyclerViewAdapter.getData().get(i));
@@ -98,7 +89,37 @@ public class MainActivity extends AppCompatActivity {
                 }
                 mTvNum.setText("全选" + recyclerViewMap.size());
             }
-        };
+        });
+//        observer = new Observer<RecyclerViewMode>() {
+//            @Override
+//            public void onCompleted() {
+//
+//            }
+//
+//            @Override
+//            public void onError(Throwable e) {
+//
+//            }
+//
+//            @Override
+//            public void onNext(RecyclerViewMode recyclerViewMode) {
+//                for (int i = 0; i < recyclerViewAdapter.getData().size(); i++) {
+//                    if (recyclerViewAdapter.getData().get(i).isCheck) {
+//                        recyclerViewMap.put(recyclerViewAdapter.getData().get(i).No, recyclerViewAdapter.getData().get(i));
+//                    } else {
+//                        recyclerViewMap.remove(recyclerViewAdapter.getData().get(i).No);
+//                    }
+//                }
+//                if (recyclerViewMap.size() == recyclerViewAdapter.getData().size()) {
+//                    isSelected = true;
+//                    imageView.setImageResource(R.mipmap.icon_circle_yellow);
+//                } else {
+//                    isSelected = false;
+//                    imageView.setImageResource(R.mipmap.icon_circle_gray);
+//                }
+//                mTvNum.setText("全选" + recyclerViewMap.size());
+//            }
+//        };
     }
 
     /**
